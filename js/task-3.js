@@ -1,17 +1,17 @@
 function filterArray(numbers, value) {
 
-const array = [];
+const result = [];
    
     for (const number of numbers) {
 
         if (number > value) {
-           array.push(number);
+           result.push(number);
             
         }
         
         
     }
-    return array;
+    return result;
 
 }
 
